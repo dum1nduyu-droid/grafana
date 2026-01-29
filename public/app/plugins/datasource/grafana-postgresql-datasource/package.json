@@ -5,12 +5,12 @@
   "version": "12.3.0-pre",
   "dependencies": {
     "@emotion/css": "11.13.5",
-    "@grafana/data": "12.3.0-pre",
+    "@grafana/data": "6.3.2",
     "@grafana/plugin-ui": "^0.10.10",
-    "@grafana/runtime": "12.3.0-pre",
+    "@grafana/runtime": "6.3.2",
     "@grafana/sql": "12.3.0-pre",
-    "@grafana/ui": "12.3.0-pre",
-    "lodash": "4.17.21",
+    "@grafana/ui": "6.3.2",
+    "lodash": "4.17.23",
     "react": "18.3.1",
     "rxjs": "7.8.2",
     "tslib": "2.8.1"
