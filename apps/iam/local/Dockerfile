@@ -26,7 +26,7 @@ RUN bash ./scripts/go-workspace/update-workspace.sh
 RUN go run build.go -dev build-backend
 
 # Final stage
-FROM alpine:latest
+FROM alpine:3.23.3
 
 # Install ca-certificates for HTTPS requests and wget for health checks
 RUN apk --no-cache add ca-certificates tzdata wget
